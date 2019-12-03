@@ -12,8 +12,13 @@ This Wordpress plugin consist of Shortcode, bundle of Widgets, custom post type,
 
 # For Developers :-
 
-  * includes
+## List of main directory and file
+
+  * >includes :- this directory consist of all files for admin side functionality
+  * >wp-book.php :- main file, the execution starts from here.
 
 # For Users :-
+	
+	
 
 # Screenshots :-
