@@ -32,36 +32,36 @@ This Plugin is not available on wordpress, user has to manually activate the plu
 
 Book Category Widget:-
 
-![Image of Book Category Widget]( https://ibb.co/BK1fWsR )
+![Image of Book Category Widget]( https://i.ibb.co/S7L6Yvp/bookhierarchy.png )
 
 Book Tags non-hierarchical taxonomy:-
 
-![Image of Book Tag Taxonomy]( https://ibb.co/L8M2KkS )
+![Image of Book Tag Taxonomy]( https://i.ibb.co/nbT5pgr/booknonhierarchy.png )
 
 Book Admin Setting page:-
 
-![Image of Book Settings Page]( https://ibb.co/HT1NCgV )
+![Image of Book Settings Page]( https://i.ibb.co/PG3TMCN/booksettingspage.png )
 
 Custom MetaBox :-
 
-![Image of Book MetaBox]( https://ibb.co/F4rp6mP )
+![Image of Book MetaBox]( https://i.ibb.co/b50t1Qf/custommetabox.png )
 
 Custom Table in Wordpress Database :-
 
-![Image of Book Table]( https://ibb.co/PTf2cpM )
+![Image of Book Table]( https://i.ibb.co/RhVX3nN/customtable.png )
 
 Custom Posttype Book metavalue store in Custom Table :-
 
-![Image of Book Table Values]( https://ibb.co/pzLCqg8 )
+![Image of Book Table Values]( https://i.ibb.co/6PW6Q2x/customtablevalues.png )
 
 Custom Dashboard widget to show top 5 book categories And also Book Setting page appears below the Custom post type Books :-
 
-![Image of Top 5 Book Categories]( https://ibb.co/X5gn0rW )
+![Image of Top 5 Book Categories]( https://i.ibb.co/Sm8kY46/dashboardwidget.png )
 
 Book Shortcode :-
 
-![Image of Book Shortcode]( https://ibb.co/zHYFSvL )
+![Image of Book Shortcode]( https://i.ibb.co/M54fR0j/shortcode.png )
 
 Display Books of selected category :-
 
-![Image of Books of Selected Category]( https://ibb.co/GnxTm8n )
+![Image of Books of Selected Category]( https://i.ibb.co/zQnJdBQ/sidebar.png )
