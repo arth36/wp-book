@@ -21,11 +21,47 @@ This Wordpress plugin consist of Shortcode, bundle of Widgets, custom post type,
 	
 This Plugin is not available on wordpress, user has to manually activate the plugin, for this user has to follow some steps which has listed below:-
 
- 1. Click on `clone and download` and download the zip file.
- 2. From cpanel navigate to `wp-content` and then `plugins` folder.
- 3. Create new Folder named `wp-book` and copy all content of `wp-book` which has downloaded from github.
- 4. Go to your `Wordpress Addmin Panel` and then go to plugins folder.
- 5. There will be a new plugin named `wp-book` and then activate it.
- 6. Last step is bit simple, ENJOY IT! :grin:
+ 1. >Click on `clone and download` and download the zip file.
+ 2. >From cpanel navigate to `wp-content` and then `plugins` folder.
+ 3. >Create new Folder named `wp-book` and copy all content of `wp-book` which has downloaded from github.
+ 4. >Go to your `Wordpress Addmin Panel` and then go to plugins folder.
+ 5. >There will be a new plugin named `wp-book` and then activate it.
+ 6. >Last step is bit simple, `ENJOY IT!` :grin:
 
 # Screenshots :-
+
+Book Category Widget:-
+
+![Image of Book Category Widget](https://ibb.co/BK1fWsR)
+
+Book Tags non-hierarchical taxonomy:-
+
+![Image of Book Tag Taxonomy](https://ibb.co/L8M2KkS)
+
+Book Admin Setting page:-
+
+![Image of Book Settings Page](https://ibb.co/HT1NCgV)
+
+Custom MetaBox :-
+
+![Image of Book MetaBox](https://ibb.co/F4rp6mP)
+
+Custom Table in Wordpress Database :-
+
+![Image of Book Table](https://ibb.co/PTf2cpM)
+
+Custom Posttype Book metavalue store in Custom Table :-
+
+![Image of Book Table](https://ibb.co/pzLCqg8)
+
+Custom Dashboard widget to show top 5 book categories And also Book Setting page appears below the Custom post type Books :-
+
+![Image of Book Table](https://ibb.co/X5gn0rW)
+
+Book Shortcode :-
+
+![Image of Book Table](https://ibb.co/zHYFSvL)
+
+Display Books of selected category :-
+
+![Image of Book Table](https://ibb.co/GnxTm8n)
