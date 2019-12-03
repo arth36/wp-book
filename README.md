@@ -12,7 +12,7 @@ This Wordpress plugin consist of Shortcode, bundle of Widgets, custom post type,
 
 # For Developers :-
 
-	* includes
+  * includes
 
 # For Users :-
 
