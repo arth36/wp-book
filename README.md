@@ -14,11 +14,18 @@ This Wordpress plugin consist of Shortcode, bundle of Widgets, custom post type,
 
 ## List of main directory and file
 
-  * >includes :- this directory consist of all files for admin side functionality
-  * >wp-book.php :- main file, the execution starts from here.
+  * >`includes` :- this directory consist of all files for admin side functionality
+  * >`wp-book.php` :- main file, the execution starts from here.
 
 # For Users :-
 	
-	
+This Plugin is not available on wordpress, user has to manually activate the plugin, for this user has to follow some steps which has listed below:-
+
+ 1. Click on `clone and download` and download the zip file.
+ 2. From cpanel navigate to `wp-content` and then `plugins` folder.
+ 3. Create new Folder named `wp-book` and copy all content of `wp-book` which has downloaded from github.
+ 4. Go to your `Wordpress Addmin Panel` and then go to plugins folder.
+ 5. There will be a new plugin named `wp-book` and then activate it.
+ 6. Last step is bit simple, ENJOY IT! :grin:
 
 # Screenshots :-
