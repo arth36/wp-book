@@ -52,16 +52,16 @@ Custom Table in Wordpress Database :-
 
 Custom Posttype Book metavalue store in Custom Table :-
 
-![Image of Book Table](https://ibb.co/pzLCqg8)
+![Image of Book Table Values](https://ibb.co/pzLCqg8)
 
 Custom Dashboard widget to show top 5 book categories And also Book Setting page appears below the Custom post type Books :-
 
-![Image of Book Table](https://ibb.co/X5gn0rW)
+![Image of Top 5 Book Categories](https://ibb.co/X5gn0rW)
 
 Book Shortcode :-
 
-![Image of Book Table](https://ibb.co/zHYFSvL)
+![Image of Book Shortcode](https://ibb.co/zHYFSvL)
 
 Display Books of selected category :-
 
-![Image of Book Table](https://ibb.co/GnxTm8n)
+![Image of Books of Slected Category](https://ibb.co/GnxTm8n)
