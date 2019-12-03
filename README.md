@@ -6,6 +6,14 @@ code quality summary  provided by:- [![Scrutinizer Code Quality](https://scrutin
 
 This Wordpress plugin consist of Shortcode, bundle of Widgets, custom post type, category and tag taxonomies, custom settings page, etc to manage books.
 
-[For Developers](#for-developers)
+* [ For Developers ](#for-developers)
+* [ For Users ](#for-users)
+* [ Screenshots ](#screenshots)
 
-# For Developers
+# For Developers :-
+
+	* includes
+
+# For Users :-
+
+# Screenshots :-
