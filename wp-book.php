@@ -34,8 +34,8 @@ include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_book_shortc
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_category_sidebar.php'); // this controls sidebar for selected category
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_bookcategory_widget.php'); // this controls custom widget
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_book_dashboard_widget.php'); // this control custom dashboard widget
-
-
+include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_selected_book_category_display_widget.php'); // this control widget to display selected category books
+ 
 
 /**************************************************
     * creating custom table
