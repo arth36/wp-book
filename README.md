@@ -24,7 +24,7 @@ This Plugin is not available on wordpress, user has to manually activate the plu
  1. >Click on `clone and download` and download the zip file.
  2. >From cpanel navigate to `wp-content` and then `plugins` folder.
  3. >Create new Folder named `wp-book` and copy all content of `wp-book` which has downloaded from github.
- 4. >Go to your `Wordpress Addmin Panel` and then go to plugins folder.
+ 4. >Go to your `Wordpress Admin Panel` and then go to plugins folder.
  5. >There will be a new plugin named `wp-book` and then activate it.
  6. >Last step is bit simple, `ENJOY IT!` :grin:
 
