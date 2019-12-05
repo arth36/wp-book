@@ -27,6 +27,8 @@ This Plugin is not available on wordpress, user has to manually activate the plu
  4. >Go to your `Wordpress Admin Panel` and then go to plugins folder.
  5. >There will be a new plugin named `wp-book` and then activate it.
  6. >Last step is bit simple, `ENJOY IT!` :grin:
+ 
+For Demo click [here]( https://wpbookplugin.000webhostapp.com/ )
 
 # Screenshots :-
 
@@ -40,7 +42,7 @@ Book Tags non-hierarchical taxonomy:-
 
 Book Admin Setting page:-
 
-![Image of Book Settings Page]( https://i.ibb.co/PG3TMCN/booksettingspage.png )
+![Image of Book Settings Page]( https://i.ibb.co/7CqFbTp/newadmin.png )
 
 Custom MetaBox :-
 
@@ -56,12 +58,12 @@ Custom Posttype Book metavalue store in Custom Table :-
 
 Custom Dashboard widget to show top 5 book categories And also Book Setting page appears below the Custom post type Books :-
 
-![Image of Top 5 Book Categories]( https://i.ibb.co/Sm8kY46/dashboardwidget.png )
+![Image of Top 5 Book Categories]( https://i.ibb.co/5xf2J9L/newdashboard.png" )
 
 Book Shortcode :-
 
-![Image of Book Shortcode]( https://i.ibb.co/M54fR0j/shortcode.png )
+![Image of Book Shortcode]( https://i.ibb.co/3fZY9RJ/newsite1.png )
 
 Display Books of selected category :-
 
-![Image of Books of Selected Category]( https://i.ibb.co/zQnJdBQ/sidebar.png )
+![Image of Books of Selected Category]( https://i.ibb.co/cgRZcS6/newsite2.png )
