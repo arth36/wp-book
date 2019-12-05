@@ -10,7 +10,7 @@ function wpb_custom_metabox(){
         'wpb_meta_box',
         __('Book Information', 'wpb'),
         'wpb_meta_callback',
-        'book',
+        'book'
     );
 
 }
