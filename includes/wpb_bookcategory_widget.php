@@ -10,9 +10,9 @@ class Wpb_Category_Widget extends WP_Widget {
 
         $widget_options = array(
             'classname' => 'wpb-category-widget',
-            'description' => __('Custom widget to display selected category books', 'wpb'),
+            'description' => __('Custom widget to display selected category books', 'wp-book'),
         );
-        parent::__construct('wpb_category', __('Book Category', 'wpb'), $widget_options);
+        parent::__construct('wpb_category', __('Book Category', 'wp-book'), $widget_options);
 
     }
 

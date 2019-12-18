@@ -8,7 +8,7 @@ function wpb_custom_metabox(){
 
     add_meta_box(
         'wpb_meta_box',
-        __('Book Information', 'wpb'),
+        __('Book Information', 'wp-book'),
         'wpb_meta_callback',
         'book'
     );

@@ -19,7 +19,7 @@ $mpb_plugin_name = 'Wp Book';
 // retreiving our plugin settings from the options table
 $wpb_settings = get_option('wpb_settings');
 
-load_plugin_textdomain('wpb', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
+load_plugin_textdomain('wp-book', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
 
 /**************************************************
     * includes
@@ -31,7 +31,6 @@ include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_custom_book
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_custom_metabox.php'); // this controls custom meta box
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_settings_page.php'); // this controls settings page
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_book_shortcode.php'); // this controls book shortcode
-include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_category_sidebar.php'); // this controls sidebar for selected category
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_bookcategory_widget.php'); // this controls custom widget
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_book_dashboard_widget.php'); // this control custom dashboard widget
 include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_selected_book_category_display_widget.php'); // this control widget to display selected category books
@@ -44,7 +43,7 @@ include(plugin_dir_path( dirname( __FILE__ ) ).'wp-book/includes/wpb_selected_bo
 function wpb_custom_table(){ 
 
     global $wpdb;
-    $table_name = $wpdb->prefix.'arth_book_meta';
+    $table_name = $wpdb->prefix.'bookmeta';
 
     if( $wpdb->get_var("SHOW TABLES LIKE '{$table_name}'") != $table_name){
 
@@ -73,8 +72,8 @@ function wpb_book_register_custom_table() {
 
     global $wpdb;
 
-    $wpdb->infometa = $wpdb->prefix . 'arth_book_meta';
-    $wpdb->tables[] = 'arth_book_meta';
+    $wpdb->bookmeta = $wpdb->prefix . 'bookmeta';
+    $wpdb->tables[] = 'bookmeta';
     
     return;
 }

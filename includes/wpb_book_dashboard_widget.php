@@ -9,7 +9,7 @@ function wpb_book_dashboard_widget(){
     wp_add_dashboard_widget(
 
         'wpb_book_dashboard_widget',
-        __('Top 5 Book category', 'wpb'),
+        __('Top 5 Book category', 'wp-book'),
         'wpb_book_dashboard_widget_callback',
         'dashboard',
         'side',
@@ -25,9 +25,7 @@ add_action('wp_dashboard_setup', 'wpb_book_dashboard_widget');
 ***************************************************/
 
 function wpb_book_dashboard_widget_callback(){
-    $cat_limit=5;
-        $cat_start_val=0;
-
+    
         /**************************************************
             * getting top 5 book categories
         ***************************************************/
@@ -35,6 +33,7 @@ function wpb_book_dashboard_widget_callback(){
 	        'taxonomy' => 'book_category',
 	        'hide_empty' => false,
 	        'order' => 'DESC',
+	        'number' => 5
         ));
         if( !empty( $categories )): ?>
             <p class="book-table-head">
@@ -43,15 +42,12 @@ function wpb_book_dashboard_widget_callback(){
     <ul class="dashboard-book-display">
     <?php
             foreach($categories as $cat){
-                $cat_start_val=$cat_start_val+1;
-                if($cat_start_val<=$cat_limit){
             ?>
                     <li><a href="<?php echo get_category_link( $cat->term_id );?>">
                             <?php echo $cat->name; ?>
                         </a>
                     </li>
                 <?php
-                }
             }
             ?> 
     </ul>

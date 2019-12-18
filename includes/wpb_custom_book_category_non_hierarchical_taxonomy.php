@@ -11,17 +11,17 @@ function wpb_category_non_hierarchical_taxonomy() {
     * first do the translations part for GUI
 ***************************************************/
   $labels = array(
-    'name' => __('Book Tags', 'wpb'),
-    'singular_name' => __('Book Tag', 'wpb'),
-    'search_items' =>  __('Search Book Tag', 'wpb'),
-    'all_items' => __('All Book Tags', 'wpb'),
-    'parent_item' => __('Parent Book Tag', 'wpb'),
-    'parent_item_colon' => __('Parent Book Tag:', 'wpb'),
-    'edit_item' => __('Edit Book Tag', 'wpb'),
-    'update_item' => __('Update Book Tag', 'wpb'),
-    'add_new_item' => __('Add New Book Tag', 'wpb'),
-    'new_item_name' => __('New Book Tag Name', 'wpb'),
-    'menu_name' => __('Book Tags', 'wpb'),
+    'name' => __('Book Tags', 'wp-book'),
+    'singular_name' => __('Book Tag', 'wp-book'),
+    'search_items' =>  __('Search Book Tag', 'wp-book'),
+    'all_items' => __('All Book Tags', 'wp-book'),
+    'parent_item' => __('Parent Book Tag', 'wp-book'),
+    'parent_item_colon' => __('Parent Book Tag:', 'wp-book'),
+    'edit_item' => __('Edit Book Tag', 'wp-book'),
+    'update_item' => __('Update Book Tag', 'wp-book'),
+    'add_new_item' => __('Add New Book Tag', 'wp-book'),
+    'new_item_name' => __('New Book Tag Name', 'wp-book'),
+    'menu_name' => __('Book Tags', 'wp-book'),
   );    
 
   $args = array(

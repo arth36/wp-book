@@ -7,9 +7,9 @@ class Wpb_Book_Widget extends WP_Widget {
     public function __construct() {
         $widget_options = array(
             'classname' => 'wpb-book-widget', // html class name
-            'description' => __( 'Custom Book Widget to show books based on their category', 'wpb' ),
+            'description' => __( 'Custom Book Widget to show books based on their category', 'wp-book' ),
         );
-        parent::__construct( 'wpb_book', __('Books', 'wpb'), $widget_options );
+        parent::__construct( 'wpb_book', __('Books', 'wp-book'), $widget_options );
     }
     
     /** WP_Widget::form */
@@ -32,7 +32,7 @@ class Wpb_Book_Widget extends WP_Widget {
         ) );
         ?>
         
-        <p><?php esc_html_e('Choose categories to show', 'wpb' ); ?>: </p>
+        <p><?php esc_html_e('Choose categories to show', 'wp-book' ); ?>: </p>
         
         <?php
 	        if ( isset( $instance[ 'selected_categories' ] ) ) {

@@ -24,14 +24,14 @@ function wpb_settings_page() {
                         <option value="<?php echo $currecy; ?>"<?php echo $selected; ?>> <?php echo $currecy;?></option>
                     <?php } ?>
                 </select>
-                <label class="description" for="wpb_settings[number_of_books]"><?php _e('Select Currency','wpb_domain'); ?></label>
+                <label class="description" for="wpb_settings[number_of_books]"><?php _e('Select Currency','wp-book'); ?></label>
             </p>
 
             <h4>Number of Books displayed per page</h4>
             
             <p>
                 <input id="wpb_settings[number_of_books]" name="wpb_settings[number_of_books]" type="number" value="<?php echo $wpb_settings['number_of_books']; ?>" />
-                <label class="description" for="wpb_settings[number_of_books]"><?php _e('Enter Number of Books per page','wpb_domain'); ?></label>
+                <label class="description" for="wpb_settings[number_of_books]"><?php _e('Enter Number of Books per page','wp-book'); ?></label>
             </p>
 
             <p>
@@ -50,8 +50,8 @@ function wpb_settings_page() {
 
 function wpb_add_options_link() {
 	add_menu_page(
-        __('Book Admin Settings Page', 'wpb'),
-        __('Book Admin Settings', 'wpb'),
+        __('Book Admin Settings Page', 'wp-book'),
+        __('Book Admin Settings', 'wp-book'),
         'manage_options',
         'wpb-settings',
         'wpb_settings_page',

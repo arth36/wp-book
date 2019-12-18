@@ -11,17 +11,17 @@ function wpb_category_hierarchical_taxonomy() {
     * first do the translations part for GUI
 ***************************************************/
   $labels = array(
-    'name' => __('Book Categories', 'wpb'),
-    'singular_name' => __('Book Category', 'wpb'),
-    'search_items' =>  __('Search Book Category', 'wpb'),
-    'all_items' => __('All Book Categories', 'wpb'),
-    'parent_item' => __('Parent Book Category','wpb'),
-    'parent_item_colon' => __('Parent Book Category:', 'wpb'),
-    'edit_item' => __('Edit Book Category', 'wpb'),
-    'update_item' => __('Update Book Category', 'wpb'),
-    'add_new_item' => __('Add New Book Category', 'wpb'),
-    'new_item_name' => __('New Book Category Name', 'wpb'),
-    'menu_name' => __('Book Categories', 'wpb'),
+    'name' => __('Book Categories', 'wp-book'),
+    'singular_name' => __('Book Category', 'wp-book'),
+    'search_items' =>  __('Search Book Category', 'wp-book'),
+    'all_items' => __('All Book Categories', 'wp-book'),
+    'parent_item' => __('Parent Book Category','wp-book'),
+    'parent_item_colon' => __('Parent Book Category:', 'wp-book'),
+    'edit_item' => __('Edit Book Category', 'wp-book'),
+    'update_item' => __('Update Book Category', 'wp-book'),
+    'add_new_item' => __('Add New Book Category', 'wp-book'),
+    'new_item_name' => __('New Book Category Name', 'wp-book'),
+    'menu_name' => __('Book Categories', 'wp-book'),
     'orderby' => 'count',
   );   
 
