@@ -7,12 +7,12 @@
     function wpb_book_shortcode( $atts ){
         $atts = shortcode_atts(
             array(
-                'book_id' => 'Undefined',
-                'author_name' => 'Unknown',
-                'year' => 'Undefined',
-                'category' => 'Not choosen yet',
-                'tag' => 'Not mentioned yet',
-                'publisher' => 'Unknown'
+                'book_id' => '',
+                'author_name' => '',
+                'year' => '',
+                'category' => '',
+                'tag' => '',
+                'publisher' => ''
             ),
             $atts
         );
@@ -23,10 +23,10 @@
                 'author' => $atts['author_name'],
             );
             
-            if($atts['book_id'] != 'Undefined'){
+            if($atts['book_id'] != ''){
                 $args['book_id'] = $atts['book_id'];
             }
-            if($atts['category'] != 'Not choosen yet'){
+            if($atts['category'] != ''){
                 $args['tax_query'] = array(
                     array(
                         'taxonomy' => 'book_category',
@@ -36,7 +36,7 @@
                     ),
                 );
             }
-            if($atts['tag'] != 'Not mentioned yet'){
+            if($atts['tag'] != ''){
                 $args[ 'tax_query' ] = array(
                     array(
                         'taxonomy' => 'book_tags',
