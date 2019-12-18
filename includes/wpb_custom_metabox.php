@@ -23,12 +23,12 @@ function wpb_meta_callback( $post ){
         * getting metadata from database
     ***************************************************/
     
-    $wpb_author_name = get_metadata( 'info', $post->ID, 'author-name', $single=true );
-    $wpb_price = get_metadata( 'info', $post->ID, 'price', $single = true );
-    $wpb_publisher = get_metadata( 'info', $post->ID, 'publisher', $single = true );
-    $wpb_year = get_metadata( 'info', $post->ID, 'year', $single = true );
-    $wpb_edition = get_metadata( 'info', $post->ID, 'edition', $single = true );
-    $wpb_url = get_metadata( 'info', $post->ID, 'url', $single = true );   
+    $wpb_author_name = get_metadata( 'book', $post->ID, 'author-name', $single=true );
+    $wpb_price = get_metadata( 'book', $post->ID, 'price', $single = true );
+    $wpb_publisher = get_metadata( 'book', $post->ID, 'publisher', $single = true );
+    $wpb_year = get_metadata( 'book', $post->ID, 'year', $single = true );
+    $wpb_edition = get_metadata( 'book', $post->ID, 'edition', $single = true );
+    $wpb_url = get_metadata( 'book', $post->ID, 'url', $single = true );   
     ?>
 
     <div>
@@ -95,40 +95,33 @@ function wpb_meta_callback( $post ){
 ***************************************************/
 
 function wpb_custom_book_info_nonce( $post_id ){
-
     
     if( ! isset( $_POST['wpb_book_info_nonce'] ) || ! wp_verify_nonce( $_POST['wpb_book_info_nonce'], 'wpb_custom_book_info_nonce' ) ){
         return $post_id;
     }
 
     if( isset( $_POST['author_name'] ) ){
-        //$author_name = sanitize_text_field( $_POST['author_name'] );
-        update_metadata('info', $post_id, 'author-name', sanitize_text_field($_POST['author_name']) );
+        update_metadata('book', $post_id, 'author-name', sanitize_text_field($_POST['author_name']) );
     }
 
     if( isset( $_POST['price'] ) ){
-        //$price = sanitize_text_field( $_POST['price'] );
-        update_metadata('info', $post_id, 'price', sanitize_text_field($_POST['price']) );
+        update_metadata('book', $post_id, 'price', sanitize_text_field($_POST['price']) );
     }
 
     if( isset( $_POST['publisher'] ) ){
-        //$publisher = sanitize_text_field( $_POST['publisher'] );
-        update_metadata('info', $post_id, 'publisher', sanitize_text_field($_POST['publisher']) );
+        update_metadata('book', $post_id, 'publisher', sanitize_text_field($_POST['publisher']) );
     }
 
     if( isset( $_POST['year'] ) ){
-        //$year = sanitize_text_field( $_POST['year'] );
-        update_metadata('info', $post_id, 'year', sanitize_text_field($_POST['year']) );
+        update_metadata('book', $post_id, 'year', sanitize_text_field($_POST['year']) );
     } 
 
     if( isset( $_POST['edition'] ) ){
-        //$edition = sanitize_text_field( $_POST['edition'] );
-        update_metadata('info', $post_id, 'edition', sanitize_text_field($_POST['edition']) );
+        update_metadata('book', $post_id, 'edition', sanitize_text_field($_POST['edition']) );
     }
 
     if( isset( $_POST['url'] ) ){
-        //$url = sanitize_text_field( $_POST['url'] );
-        update_metadata('info', $post_id, 'url', sanitize_text_field($_POST['url']) );
+        update_metadata('book', $post_id, 'url', sanitize_text_field($_POST['url']) );
     }
     
 }

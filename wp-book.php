@@ -49,11 +49,11 @@ function wpb_custom_table(){
 
         $sql = "CREATE TABLE  $table_name (
             meta_id INTEGER (10) UNSIGNED AUTO_INCREMENT,
-            info_id bigint(20) NOT NULL DEFAULT '0',
+            book_id bigint(20) NOT NULL DEFAULT '0',
             meta_key varchar(255) DEFAULT NULL,
             meta_value longtext,
             PRIMARY KEY  (meta_id),
-            KEY info_id (info_id),
+            KEY book_id (book_id),
             KEY meta_key(meta_key)
         )";
 
